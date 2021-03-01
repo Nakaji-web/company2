@@ -76,6 +76,10 @@ img {
   background-color: #fff;
 }
 
+.sp-br {
+  display: none;
+}
+
 /* ---------------------- */
 /* header
 /* ---------------------- */
