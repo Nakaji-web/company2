@@ -72,11 +72,31 @@
     height: 3px;
     width: 30px;
     background-color: #fff;
+    transition: .3s;
   }
   .bar_top,
   .bar_mid {
     margin-bottom: 8px;
   }
+
+  /* ハンバーガーメニューが開いたとき */
+.burger-btn.cross .bar_top {
+  transform: rotate(45deg) translate(8px, 8px);
+  transition: .3s;
+}
+.burger-btn.cross .bar_mid {
+  opacity: 0;
+  transition: .3s;
+}
+.burger-btn.cross .bar_bottom {
+  transform: rotate(-45deg) translate(8px, -8px);
+  transition: .3s;
+}
+ body.noscroll {
+  overflow: hidden;
+}
+
+
   button {
     background-color: transparent;
     border: none;
