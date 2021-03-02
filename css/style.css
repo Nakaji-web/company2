@@ -87,10 +87,12 @@ img {
   padding: 19px 30px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
   z-index: 1;
+  transform: translateX(-50%);
   box-sizing: border-box;
   width: 100%;
+  transition: .3s;
 }
 .header-inner {
   display: flex;
@@ -127,6 +129,14 @@ img {
   display: none;
 }
 
+.header.fixed {
+  position: fixed;
+  background-color: #282f35;
+  padding: 30px;
+  width: 100%;
+  transition: .3s;
+}
+
 /* ---------------------- */
 /* fv(ファーストビュー)
 /* ---------------------- */
@@ -134,9 +144,13 @@ img {
   height: 100vh;
   min-height: 550px;
   position: relative;
-  background-image: url(../img/fv-bgi_01@2x.jpg);
   background-size: cover;
   background-position: center;
+}
+.fv img {
+  height: 100vh;
+  min-height: 550px;
+  object-fit: cover;
 }
 .main-copy {
   position: absolute;
@@ -152,6 +166,10 @@ img {
 .jp-copy {
   font-size: 4rem;
   text-align: center;
+}
+
+.slick-arrow {
+  display: none !important;
 }
 
 /* ---------------------- */
@@ -247,8 +265,8 @@ img {
 /* ---------------------- */
 .bg-contact {
   background-image: url(../img/contact-bgi@2x.jpg);
-  /* background-size: cover;
-  background-position:  center; */
+  background-size: cover;
+  background-position:  center;
 }
 .contact-text {
   text-align: center;
