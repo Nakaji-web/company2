@@ -1,4 +1,5 @@
 # company2  
+・参考サイト  
 ・クリ★スタさんのHP(https://crestadesign.org/cording-second/)  
 ・XDからのカンプ模写 2021.02.27~03.03
 
