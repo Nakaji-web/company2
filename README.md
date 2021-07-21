@@ -1,4 +1,4 @@
-# practice_beginner6  
+# company2  
 ・クリ★スタさんのHP(https://crestadesign.org/cording-second/)  
 ・XDからのカンプ模写 2021.02.27~03.03
 
